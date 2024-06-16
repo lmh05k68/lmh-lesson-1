@@ -1,0 +1,33 @@
+.card_wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    justify-content:center
+}
+.search_wrapper{
+    width:50%;
+    margin:auto;
+    border:1px solid black;
+    border-radius:15px;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:left
+}
+.search_wrapper input{
+    border:none;
+    width:100%;
+}
+input:focus{
+    outline:none
+}
+.search_wrapper button{
+    background-color: rgb(150, 174, 241);
+    border:none;
+    border-radius: 15px;
+    height:30px;
+    cursor:pointer;
+}
+.filter{
+    background-color: rgb(108, 161, 234);
+}

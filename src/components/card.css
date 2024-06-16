@@ -1,0 +1,99 @@
+/* 
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:100%;
+    flex-direction: row;
+    
+} */
+.card {
+    border-radius:10px;
+    margin:1%;
+    width:fit-content;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    transition: all 0.3s ease;
+    justify-content:center;
+    align-items:center;
+    display:inline-block
+}
+.card:hover {
+    transform: translateY(-5px);
+        box-shadow: 0 0 40px rgba(255, 255, 255, .2);
+}
+.card img {
+    height:275px;
+    background-color: rgb(188, 183, 183);
+    border-radius: 10px;
+}
+.card p {  
+     color:grey;
+     padding-left:5%
+}
+.card h2{
+    padding-left: 5%;
+}
+.pokemon_class_wrapper span{
+    margin:5px;
+    border-radius: 10px;
+    display:inline-block;
+    width:60px;
+    height:20px;
+    background-color: green;
+    color:white;
+    padding-left: 10px;
+}
+.pokemon_class_wrapper {
+    padding-left:3.5%;
+   
+}
+.Grass{
+    background-color: green !important;
+    color:black;
+}
+.Poison{
+    background-color: purple !important;
+    color:white;
+}
+.Fire{
+    background-color: orangered !important;
+    color:white;
+}
+.Flying{
+    background-image: linear-gradient(rgb(16, 149, 232),grey) !important;
+    color:black !important;
+}
+.popup{
+    width:400px;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align:center;
+    padding:0 30px 30px;
+    color:#333;
+}
+.popup h2{
+    font-size:40px;
+    font-weight:500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width:20%;
+    margin-top:50px;
+    padding: 10px 0;
+    background-color: rgb(56, 145, 228);
+    border-radius: 10px;
+    cursor:pointer;
+    color:#fff;
+    border:0;
+    outline:none;
+    font-size:20px;
+}
+.popup p{
+    font-size:25px;
+}
